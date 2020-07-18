@@ -9,7 +9,7 @@ import dill
 import common
 import cv2
 import numpy as np
-from estimator import TfPoseEstimator
+from tf_pose.estimator import TfPoseEstimator
 from networks import get_graph_path, model_wh
 
 from lifting.prob_model import Prob3dPose
